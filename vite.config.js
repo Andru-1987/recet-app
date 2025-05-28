@@ -40,12 +40,6 @@ const manifestForPlugin = {
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), VitePWA(manifestForPlugin)],
-  base: "/recet-app/",
-  server: {
-    host: true
-  },
-  build: {
-    sourcemap: true
-  }
+  base: "/recet-app/"
 })
 
