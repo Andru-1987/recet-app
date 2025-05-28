@@ -12,8 +12,8 @@ const manifestForPlugin = {
     description: 'App de recetas offline',
     theme_color: '#1a1a1a',
     background_color: '#1a1a1a',
-    start_url: '/',
-    scope: '/',
+    start_url: '/recet-app/',
+    scope: '/recet-app/',
     display: 'standalone',
     orientation: 'portrait',
     icons: [
